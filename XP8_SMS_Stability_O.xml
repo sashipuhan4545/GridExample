@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="methods" thread-count="2" >
+
+
+
+	   <test name="Device Stability">
+	    <parameter name="URL" value="127.0.0.1:4723/wd/hub"/>
+		<parameter name="UDID" value="903f900c"/>
+		
+		
+	  
+		
+		<classes>
+		<class name="Muvi.Grid.grid"/>
+	
+		</classes>
+	</test> 
+	 
+	<!-- 
+	 <test name="Device">
+	    <parameter name="URL" value="10.15.6.16:4723/wd/hub"/>
+		<parameter name="UDID" value="3888c458"/>
+		
+		
+	  
+		
+		<classes>
+		<class name="Muvi.Grid.grid"/>
+	
+		</classes>
+	</test> 
+	  -->
+	
+	
+</suite>
